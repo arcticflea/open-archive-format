@@ -1,0 +1,10 @@
+{
+  "format": "OAF",
+  "version": "0.1.0",
+  "archive_id": "urn:uuid:00000000-0000-4000-8000-000000000101",
+  "created_at": "2026-01-01T12:00:00Z",
+  "profile": "catalogue",
+  "records": "records.jsonl",
+  "required_extensions": [],
+  "title": "Synthetic provenance example"
+}

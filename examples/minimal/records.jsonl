@@ -1,0 +1,3 @@
+{"type":"source","id":"urn:uuid:00000000-0000-4000-8000-000000000001","label":"Synthetic removable collection","source_kind":"removable"}
+{"type":"activity","id":"urn:uuid:00000000-0000-4000-8000-000000000002","action":"observe","started_at":"2026-01-01T12:00:00Z","source_ids":["urn:uuid:00000000-0000-4000-8000-000000000001"],"outcome":"completed","agent":"Synthetic example generator"}
+{"type":"occurrence","id":"urn:uuid:00000000-0000-4000-8000-000000000003","source_id":"urn:uuid:00000000-0000-4000-8000-000000000001","kind":"file","observed_at":"2026-01-01T12:00:00Z","state":"present","path_segments":["Example.txt"],"size_bytes":0,"activity_ids":["urn:uuid:00000000-0000-4000-8000-000000000002"]}

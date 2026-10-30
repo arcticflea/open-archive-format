@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arcticflea.github.io/open-archive-format/0.1.0/manifest.schema.json",
+  "title": "OAF 0.1.0 manifest",
+  "type": "object",
+  "properties": {
+    "format": {
+      "const": "OAF"
+    },
+    "version": {
+      "const": "0.1.0"
+    },
+    "archive_id": {
+      "type": "string",
+      "pattern": "^urn:uuid:[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:[0-5]\\d(?:\\.\\d{1,6})?Z$"
+    },
+    "profile": {
+      "const": "catalogue"
+    },
+    "records": {
+      "const": "records.jsonl"
+    },
+    "required_extensions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^https://[^\\s#]+#[^\\s]+$"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "extensions": {
+      "type": "object",
+      "propertyNames": {
+        "pattern": "^https://[^\\s#]+#[^\\s]+$"
+      }
+    }
+  },
+  "required": [
+    "format",
+    "version",
+    "archive_id",
+    "created_at",
+    "profile",
+    "records",
+    "required_extensions"
+  ],
+  "additionalProperties": false
+}

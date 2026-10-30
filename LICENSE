@@ -1,0 +1,42 @@
+Open Archive Format — licence scope
+
+Copyright (c) 2026 arcticflea and OAF contributors
+
+The normative specification and prose documentation (*.md) are licensed under
+Creative Commons Attribution 4.0 International (CC BY 4.0).
+The complete licence terms are incorporated by reference at:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+You may share and adapt these materials, including commercially, subject to
+those terms, including appropriate attribution and indicating modifications.
+Suggested attribution: “Open Archive Format, arcticflea and OAF contributors,
+https://github.com/arcticflea/open-archive-format, CC BY 4.0”.
+No endorsement is implied. The licence includes warranty/liability disclaimers.
+
+All other original files in this repository — schemas (*.json), synthetic example
+archives (*.json and *.jsonl), Python tooling and tests (*.py), requirements.txt,
+.gitignore, and workflow (*.yml) — are licensed under the MIT licence below.
+Third-party dependencies retain their own licences and are not bundled here.
+These grants do not apply to user catalogues or content stored using OAF.
+
+MIT License
+
+Copyright (c) 2026 arcticflea and OAF contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
