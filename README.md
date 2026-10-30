@@ -9,6 +9,9 @@ Start with the [normative specification](spec/0.1.0.md),
 [manifest schema](schemas/manifest.schema.json), [record schema](schemas/record.schema.json)
 and [synthetic examples](examples/README.md).
 
+Implementation advice: [Identity and recovery — NON-NORMATIVE guide](guides/identity-and-recovery.md)
+covers persistent mappings, recovery, relocation and independent forks.
+
 An archive is two ordinary UTF-8 files:
 
 ```text

@@ -10,6 +10,9 @@ Changes to the format require a new versioned specification and schemas; do not
 rewrite an already published version. Test tooling changes with the full suite
 and both examples using the commands in README.md.
 
+For implementation guidance, see [Identity and recovery](guides/identity-and-recovery.md).
+Keep such guidance clearly non-normative and consistent with the published contract.
+
 Contributions are provided under the licence applicable to each file as described
 in LICENSE. Please contribute only material you are entitled to license. No CLA
 or formal standards body is established. Initial maintenance is by arcticflea;
